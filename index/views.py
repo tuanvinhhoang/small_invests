@@ -10,3 +10,5 @@ def home(request):
 def home_redirect(request):
         return redirect('index.html')
 
+def about_us(request):
+        return render(request, 'generic.html')

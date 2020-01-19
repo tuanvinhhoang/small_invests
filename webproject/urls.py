@@ -22,6 +22,7 @@ from index import views
 urlpatterns = [ 
     path("", include("index.urls")),
     url(r'^$', views.home_redirect, name='home_redirect'),
+    url(r'^generic.html$', views.about_us, name='about_us'),
 ]
 
 
